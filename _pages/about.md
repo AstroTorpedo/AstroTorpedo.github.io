@@ -1,36 +1,31 @@
 ---
-layout: single
+layout: personal
 permalink: /
 title: "About me"
-author_profile: true
+nav: about
+kicker: "HELLO / WELCOME"
+description: "Lou Jinchang, a Jilin University undergraduate exploring radio astronomy, neutral hydrogen, and the night sky through research and photography."
+backgrounds: [andromeda, triangulum]
+header:
+  image: photography/andromeda-background.webp
 redirect_from:
   - /about/
   - /about.html
 ---
-
-I am **Lou Jinchang (娄锦畅)**, a third-year undergraduate student in **Communication Engineering at Jilin University**, and an astronomy enthusiast interested in radio astronomy and galaxy evolution.
-
-I am pursuing undergraduate research under the guidance of **Dr. Chao-Wei Tsai (蔡肇伟)** in the [Interstellar Medium and Star Formation group](https://english.nao.cas.cn/research/researchdivisions/radioastronomy/202103/t20210321_265669.html) at the **National Astronomical Observatories, Chinese Academy of Sciences (NAOC)**.
-
-## Research interests
-
-- **Neutral hydrogen and galaxy evolution** — HI observations of dwarf galaxies and the role of black hole feedback.
-- **FAST data processing** — drift-scan spectra, baseline subtraction, and reproducible processing workflows.
-
-## Current projects
-
-- [HI-pipeline]({{ '/portfolio/hi-pipeline/' | relative_url }}) — developing a processing workflow for FAST neutral hydrogen observations.
-- [arXiv Daily]({{ '/portfolio/arxiv-daily/' | relative_url }}) — a daily literature website with AI-assisted summaries.
-
-## Beyond research
-
-I serve as **President of the Jilin University Astronomy Association**. My interest in astronomy also extends to **deep-sky astrophotography** and amateur observing.
-
-During high school, I was a member of the **Jiangsu provincial team** for the **Chinese National Astronomy Olympiad (CNAO)** and received a **national bronze medal**.
-
-[GitHub](https://github.com/AstroTorpedo) · [Daily arXiv papers](https://astrotorpedo.github.io/arXiv/)
-
-## Contact
-
-- **University email:** [loujc2024@mails.jlu.edu.cn](mailto:loujc2024@mails.jlu.edu.cn)
-- **Personal email:** [2802685239@qq.com](mailto:2802685239@qq.com)
+<section class="content-section" id="about">
+  <p class="lead">I am <strong>Lou Jinchang (娄锦畅)</strong>, a third-year undergraduate student in <strong>Communication Engineering at Jilin University</strong>, and an astronomy enthusiast interested in radio astronomy and galaxy evolution.</p>
+  <p>I pursue undergraduate research under the guidance of <strong>Dr. Chao-Wei Tsai (蔡肇伟)</strong> in the <a href="https://groups.bao.ac.cn/ism/">ISM Group</a> (ISM Evolution and Star Formation) at the <strong>National Astronomical Observatories, Chinese Academy of Sciences (NAOC)</strong>.</p>
+</section>
+<section class="content-section" id="research" data-background="triangulum">
+  <h2>Research interests</h2>
+  <ul class="interest-list"><li><strong>Neutral hydrogen &amp; galaxy evolution</strong><p>HI observations of dwarf galaxies and the role of black hole feedback.</p></li><li><strong>FAST data processing</strong><p>Drift-scan spectra, baseline subtraction, and reproducible processing workflows.</p></li></ul>
+  <a class="text-link" href="{{ '/projects/' | relative_url }}">Explore my public projects →</a>
+</section>
+<section class="content-section" id="beyond-research">
+  <h2>Beyond research</h2>
+  <p>I serve as <strong>President of the Jilin University Astronomy Association</strong>. My interest in astronomy extends to amateur observing and <strong>deep-sky astrophotography</strong>.</p>
+  <p>During high school, I was a member of the <strong>Jiangsu provincial team</strong> for the <strong>Chinese National Astronomy Olympiad (CNAO)</strong> and received a <strong>national bronze medal</strong>.</p>
+  <p class="honour-note">In <strong>2026</strong>, I was selected as an <strong>Outstanding Astrophotographer</strong> by <strong>Beijing Planetarium</strong>.</p>
+  <div class="page-shortcuts"><a href="{{ '/journey/' | relative_url }}"><span>MY JOURNEY</span><strong>Experiences &amp; community ↗</strong></a><a href="{{ '/photography/' | relative_url }}"><span>THROUGH MY LENS</span><strong>Browse the photography ↗</strong></a></div>
+</section>
+<section class="content-section contact-summary" id="contact"><h2>Contact</h2><p>For conversations about astronomy, observing, and research.</p><p><a href="mailto:loujc2024@mails.jlu.edu.cn">loujc2024@mails.jlu.edu.cn</a><br><a href="mailto:2802685239@qq.com">2802685239@qq.com</a></p></section>

@@ -23,7 +23,7 @@ repository: "AstroTorpedo/AstroTorpedo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 # 公开用户确认的姓名、学校、研究方向和联系邮箱；未提供的学术标识保持空值。
 author:
-  avatar: "radio-galaxy.svg"
+  avatar: "photography/portrait-thumb.webp"
   name: "Lou Jinchang 娄锦畅"
   bio: "Undergraduate at Jilin University · Radio astronomy & galaxy evolution"
   location:

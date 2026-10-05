@@ -1,5 +1,8 @@
 ---
-layout: single
+layout: personal
+nav: cv
+prose: true
+backgrounds: [crescent]
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -11,11 +14,13 @@ redirect_from:
 
 **Jilin University** — Undergraduate student in Communication Engineering, currently in my third year.
 
+**Taixing High School of Jiangsu Province (江苏省泰兴中学)** — Secondary education.
+
 ## Research
 
 **Undergraduate research under the guidance of Dr. Chao-Wei Tsai (蔡肇伟)**
 
-Interstellar Medium and Star Formation group, National Astronomical Observatories, Chinese Academy of Sciences.
+[ISM Evolution and Star Formation group (ISM Group)](https://groups.bao.ac.cn/ism/), National Astronomical Observatories, Chinese Academy of Sciences.
 
 Current research interests include FAST neutral hydrogen observations and galaxy evolution.
 
@@ -26,6 +31,8 @@ Current research interests include FAST neutral hydrogen observations and galaxy
 **President, Jilin University Astronomy Association**
 
 ## Honours
+
+**2026 Outstanding Astrophotographer (2026年优秀天文摄影师)** — Selected by Beijing Planetarium.
 
 **Chinese National Astronomy Olympiad (CNAO)** — National bronze medal; member of the Jiangsu provincial team during high school.
 

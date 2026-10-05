@@ -1,14 +1,17 @@
 ---
-layout: archive
-title: "Projects"
+layout: personal
+title: "Research & projects"
 permalink: /projects/
-author_profile: true
+nav: projects
+kicker: "RESEARCH / PUBLIC WORK"
+subtitle: "Radio observations, reproducible workflows, and a daily reading habit."
+backgrounds: [crescent]
 redirect_from:
   - /portfolio/
 ---
-
-<p>Current work in radio astronomy and literature tools.</p>
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+<div class="project-grid">
+{% for project in site.portfolio %}
+<a class="project-card reveal" href="{{ project.url | relative_url }}"><div class="card-top"><span class="eyebrow">{% if project.url contains 'hi-pipeline' %}RADIO ASTRONOMY{% else %}LITERATURE TOOLS{% endif %}</span><span class="card-arrow" aria-hidden="true">↗</span></div><h2>{{ project.title }}</h2><p>{{ project.excerpt | strip_html }}</p><span class="text-link">Read more →</span></a>
 {% endfor %}
+</div>
+<section class="content-section"><h2>Research context</h2><p>My undergraduate research is guided by Dr. Chao-Wei Tsai in the <a href="https://groups.bao.ac.cn/ism/">ISM Group</a> at NAOC. My current interests include FAST neutral hydrogen observations of dwarf galaxies, galaxy evolution, and black hole feedback.</p><p><a class="text-link" href="{{ '/cv/' | relative_url }}">Education &amp; experience →</a></p></section>

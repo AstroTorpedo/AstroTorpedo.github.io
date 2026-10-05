@@ -1,0 +1,20 @@
+---
+layout: personal
+title: "Through my lens"
+permalink: /photography/
+nav: photography
+kicker: "PHOTOGRAPHY / THE NIGHT SKY"
+subtitle: "Galaxies, nebulae, and nights beneath the stars. Select a frame to view the complete image."
+backgrounds: [andromeda, dolphin, horsehead, crescent, milky-way]
+photo_viewer: true
+---
+<p class="honour-note photography-honour"><strong>2026 Outstanding Astrophotographer</strong><br>Selected by Beijing Planetarium · 北京天文馆</p>
+<div class="gallery-toolbar"><div class="gallery-filters" role="group" aria-label="Filter photographs"><button type="button" data-filter="all" aria-pressed="true">All frames</button><button type="button" data-filter="galaxies" aria-pressed="false">Galaxies</button><button type="button" data-filter="nebulae" aria-pressed="false">Nebulae</button><button type="button" data-filter="nightscapes" aria-pressed="false">Nightscapes</button></div><p class="gallery-count" aria-live="polite"><span id="gallery-count">{{ site.data.photography.size }}</span> frames</p></div>
+<div class="photo-grid">
+  {% for photo in site.data.photography %}
+  {% assign marker = forloop.index0 | modulo: 3 %}{% assign background_index = forloop.index0 | divided_by: 3 %}
+  <a class="photo-card reveal" href="{{ '/images/photography/' | append: photo.id | append: '-large.webp' | relative_url }}" data-lightbox data-group="photography" data-category="{{ photo.category }}" data-title="{{ photo.title | escape }}" data-label="{{ photo.label | escape }}" data-note="{{ photo.note | escape }}"{% if marker == 0 %} data-background="{{ page.backgrounds[background_index] }}"{% endif %}>
+    <div class="photo-frame"><img src="{{ '/images/photography/' | append: photo.id | append: '-thumb.webp' | relative_url }}" alt="{{ photo.title | escape }} — {{ photo.label | escape }}" loading="lazy" decoding="async"><span class="photo-open" aria-hidden="true">↗</span></div><div class="photo-caption"><h2>{{ photo.title }}</h2><p>{{ photo.label }}</p></div>
+  </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,16 @@
+# 标题依据素材名称，不推断未提供的拍摄参数。
+- {id: andromeda, title: Andromeda Galaxy, label: M31, category: galaxies}
+- {id: horsehead, title: Horsehead Nebula region, label: IC 434, category: nebulae}
+- {id: triangulum, title: Triangulum Galaxy, label: M33, category: galaxies}
+- {id: dolphin, title: Dolphin Nebula, label: 海豚星云, category: nebulae}
+- {id: milky-way, title: Milky Way in the field, label: 野外观测银河, category: nightscapes}
+- {id: crescent, title: Crescent Nebula, label: NGC 6888, category: nebulae}
+- {id: leo-triplet, title: Leo Triplet, label: 狮子座三重奏, category: galaxies}
+- {id: dumbbell, title: Dumbbell Nebula, label: M27, category: nebulae}
+- {id: orion, title: Orion, label: Orion, category: nightscapes}
+- {id: crab, title: Crab Nebula, label: M1, category: nebulae}
+- {id: geminids, title: Geminid meteor shower, label: 双子座流星雨, category: nightscapes}
+- {id: summer-triangle, title: Summer Triangle, label: 夏季大三角, category: nightscapes}
+- {id: sombrero, title: Sombrero Galaxy, label: M104, category: galaxies, note: 'The comparison inset is credited to Hubble in the original image.'}
+- {id: star-field, title: Star field, label: 辇道增七, category: nightscapes}
+- {id: nebula-study, title: Nebula study, label: 鱼, category: nebulae}

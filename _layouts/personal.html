@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <meta name="theme-color" content="#080d16">
+  <link rel="icon" href="{{ '/images/personal-star.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/personal.css' | relative_url }}">
+  {% assign skies = page.backgrounds | default: site.data.default_skies %}
+  {% unless skies %}{% assign skies = 'andromeda' | split: ',' %}{% endunless %}
+  <link rel="preload" as="image" href="{{ '/images/photography/' | append: skies.first | append: '-background.webp' | relative_url }}">
+  <script defer src="{{ '/assets/js/personal.js' | relative_url }}"></script>
+</head>
+<body class="personal-site">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <!-- 背景保持在视口中，正文滚动时才逐渐更换作品。 -->
+  <div class="sky-background" aria-hidden="true">
+    {% for sky in skies %}
+    {% assign work = site.data.photography | where: 'id', sky | first %}
+    <img class="sky-layer{% if forloop.first %} is-first{% endif %}" {% if forloop.first %}src{% else %}data-src{% endif %}="{{ '/images/photography/' | append: sky | append: '-background.webp' | relative_url }}" alt="" decoding="async" data-sky="{{ sky }}" data-title="{{ work.title | escape }}">
+    {% endfor %}
+  </div>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="wordmark" href="{{ '/' | relative_url }}"><span class="wordmark-orbit" aria-hidden="true">✦</span> LOU JINCHANG</a>
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu <span aria-hidden="true">＋</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        {% for item in site.data.navigation.main %}
+        <a href="{% if item.url contains '://' %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"{% if page.nav == item.key %} aria-current="page"{% endif %}>{{ item.title }}{% if item.key == 'arxiv' %} <span aria-hidden="true">↗</span>{% endif %}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+  <div class="site-shell wrap" id="top">
+    <!-- 桌面端侧栏使用 sticky，与正文共用正常文档滚动。 -->
+    <aside class="profile-sidebar" aria-label="Personal profile">
+      <div class="profile-card">
+        <a class="profile-photo" href="{{ '/' | relative_url }}"><img src="{{ '/images/photography/portrait-thumb.webp' | relative_url }}" width="180" height="180" alt="Portrait of Lou Jinchang"></a>
+        <h2 class="profile-name">Lou Jinchang <span lang="zh">娄锦畅</span></h2>
+        <p class="profile-bio">Undergraduate at Jilin University<br>Communication Engineering</p>
+        <p class="profile-role">Radio astronomy &amp; galaxy evolution<br><a href="https://groups.bao.ac.cn/ism/">ISM Group · NAOC</a></p>
+        <div class="profile-links">
+          <a href="https://www.jlu.edu.cn/"><span aria-hidden="true">⌂</span> Jilin University</a>
+          <a href="mailto:loujc2024@mails.jlu.edu.cn"><span aria-hidden="true">✉</span><span>loujc2024@mails.jlu.edu.cn</span></a>
+          <a href="mailto:2802685239@qq.com"><span aria-hidden="true">✉</span><span>2802685239@qq.com</span></a>
+          <a href="https://github.com/AstroTorpedo"><span aria-hidden="true">↗</span> GitHub / AstroTorpedo</a>
+        </div>
+        <a class="profile-cv" href="{{ '/cv/' | relative_url }}">View CV <span aria-hidden="true">↗</span></a>
+      </div>
+      {% assign initial_work = site.data.photography | where: 'id', skies.first | first %}
+      <p class="background-credit">BACKGROUND PHOTOGRAPH<br><span id="background-title">{{ initial_work.title }}</span></p>
+    </aside>
+    <main class="content-column" id="main">
+      <article class="page-panel" data-background="{{ skies.first }}">
+        <header class="page-heading"><p class="eyebrow">{{ page.kicker | default: 'LOU JINCHANG / PERSONAL WEBSITE' }}</p><h1>{{ page.title }}</h1>{% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}</header>
+        <div class="page-content{% if page.prose %} prose{% endif %}">{{ content }}</div>
+      </article>
+      <footer class="site-footer"><p>© {{ site.time | date: '%Y' }} Lou Jinchang · <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a> &amp; Jekyll.</p><a href="#top">Back to top ↑</a></footer>
+    </main>
+  </div>
+  {% if page.photo_viewer %}
+  <dialog class="lightbox" id="photo-dialog" aria-labelledby="photo-title">
+    <div class="lightbox-top"><span class="eyebrow" id="photo-count"></span><button class="lightbox-close" type="button" aria-label="Close photo viewer">Close <span aria-hidden="true">×</span></button></div>
+    <div class="lightbox-stage"><button class="photo-prev" type="button" aria-label="Previous photo">←</button><img id="photo-image" alt=""><button class="photo-next" type="button" aria-label="Next photo">→</button></div>
+    <div class="lightbox-caption"><div><h2 id="photo-title"></h2><p id="photo-label"></p><p id="photo-note"></p></div><a id="photo-full" target="_blank" rel="noopener">Open image ↗</a></div>
+  </dialog>
+  {% endif %}
+</body>
+</html>

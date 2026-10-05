@@ -1,4 +1,8 @@
 ---
+layout: personal
+nav: projects
+prose: true
+backgrounds: [crescent]
 title: "arXiv Daily: a literature reading tool"
 excerpt: "A personal literature website that collects arXiv papers and provides AI-assisted summaries through GitHub Actions and GitHub Pages."
 collection: portfolio

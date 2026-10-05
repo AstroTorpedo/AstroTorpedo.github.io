@@ -1,4 +1,8 @@
 ---
+layout: personal
+nav: projects
+prose: true
+backgrounds: [crescent]
 title: "HI-pipeline: FAST neutral hydrogen observations"
 excerpt: "Developing a reproducible processing workflow for FAST drift-scan observations of extragalactic neutral hydrogen."
 collection: portfolio

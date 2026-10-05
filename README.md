@@ -2,9 +2,10 @@
 
 基于 [Academic Pages](https://github.com/academicpages/academicpages.github.io) 和 Jekyll，部署到 GitHub Pages。
 
-- 个人主页：<https://astrotorpedo.github.io/>
+- 主页：<https://astrotorpedo.github.io/>
 - 论文阅读工具：<https://astrotorpedo.github.io/arXiv/>
-- 编辑、预览和发布步骤：[MAINTENANCE.md](MAINTENANCE.md)
+- 维护说明：[MAINTENANCE.md](MAINTENANCE.md)
 
-第一版包含英文简介、项目介绍和简历。邮箱按用户授权公开，论文栏目暂不展示。
-保留 Academic Pages / Minimal Mistakes 模板的 MIT 许可证及署名。
+网站使用多页结构：About、Projects、Journey、Photography、CV。桌面端保留固定的左侧个人资料栏，摄影背景随滚动变化，相册支持分类和大图查看。
+
+邮箱按用户授权公开，论文栏目暂不展示。保留 Academic Pages / Minimal Mistakes 的 MIT 许可证及署名。
