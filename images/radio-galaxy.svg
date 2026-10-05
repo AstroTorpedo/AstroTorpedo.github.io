@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">Abstract radio galaxy illustration</title>
+  <!-- 临时头像采用抽象射电双瓣图案，仅作装饰，不代表观测数据。 -->
+  <rect width="240" height="240" rx="120" fill="#10243b"/>
+  <g fill="#e8f1f9" opacity=".65">
+    <circle cx="57" cy="55" r="2"/><circle cx="181" cy="64" r="2.5"/>
+    <circle cx="55" cy="185" r="2.5"/><circle cx="184" cy="171" r="2"/>
+    <circle cx="129" cy="39" r="1.5"/><circle cx="208" cy="118" r="1.5"/>
+  </g>
+  <g transform="rotate(-28 120 120)">
+    <ellipse cx="64" cy="120" rx="33" ry="24" fill="#6ea8be" opacity=".8"/>
+    <ellipse cx="176" cy="120" rx="33" ry="24" fill="#6ea8be" opacity=".8"/>
+    <path d="M65 120h110" stroke="#dbe8ed" stroke-width="4"/>
+    <ellipse cx="120" cy="120" rx="17" ry="30" fill="none" stroke="#e1c69e" stroke-width="3"/>
+    <circle cx="120" cy="120" r="10" fill="#f4dfb6"/>
+  </g>
+</svg>

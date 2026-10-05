@@ -1,64 +1,41 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
-  - /resume
+  - /resume/
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Jilin University** — Undergraduate student in Communication Engineering, currently in my third year.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Research
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Undergraduate research under the guidance of Dr. Chao-Wei Tsai (蔡肇伟)**
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Interstellar Medium and Star Formation group, National Astronomical Observatories, Chinese Academy of Sciences.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Current research interests include FAST neutral hydrogen observations and galaxy evolution.
+
+[Research projects]({{ '/projects/' | relative_url }})
+
+## Leadership
+
+**President, Jilin University Astronomy Association**
+
+## Honours
+
+**Chinese National Astronomy Olympiad (CNAO)** — National bronze medal; member of the Jiangsu provincial team during high school.
+
+## Interests
+
+Amateur astronomy and deep-sky astrophotography.
+
+## Contact
+
+[GitHub](https://github.com/AstroTorpedo)
+
+- **University email:** [loujc2024@mails.jlu.edu.cn](mailto:loujc2024@mails.jlu.edu.cn)
+- **Personal email:** [2802685239@qq.com](mailto:2802685239@qq.com)
