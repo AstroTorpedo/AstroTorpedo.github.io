@@ -14,7 +14,7 @@ redirect_from:
 ---
 <section class="content-section" id="about">
   <p class="lead">I am <strong>Lou Jinchang (娄锦畅)</strong>, a third-year undergraduate student in <strong>Communication Engineering at Jilin University</strong>, and an astronomy enthusiast interested in radio astronomy and galaxy evolution.</p>
-  <p>I pursue undergraduate research under the guidance of <strong>Dr. Chao-Wei Tsai (蔡肇伟)</strong> in the <a href="https://groups.bao.ac.cn/ism/">ISM Group</a> (ISM Evolution and Star Formation) at the <strong>National Astronomical Observatories, Chinese Academy of Sciences (NAOC)</strong>.</p>
+  <p>I undertake research training and participate in research activities under the guidance of <strong>Dr. Chao-Wei Tsai (蔡肇伟)</strong> in the <a href="https://groups.bao.ac.cn/ism/">ISM Group</a> (ISM Evolution and Star Formation) at the <strong>National Astronomical Observatories, Chinese Academy of Sciences (NAOC)</strong>.</p>
 </section>
 <section class="content-section" id="research" data-background="triangulum">
   <h2>Research interests</h2>

@@ -16,9 +16,9 @@ redirect_from:
 
 **Taixing High School of Jiangsu Province (江苏省泰兴中学)** — Secondary education.
 
-## Research
+## Research experience
 
-**Undergraduate research under the guidance of Dr. Chao-Wei Tsai (蔡肇伟)**
+**Research training and research activities under the guidance of Dr. Chao-Wei Tsai (蔡肇伟)**
 
 [ISM Evolution and Star Formation group (ISM Group)](https://groups.bao.ac.cn/ism/), National Astronomical Observatories, Chinese Academy of Sciences.
 
