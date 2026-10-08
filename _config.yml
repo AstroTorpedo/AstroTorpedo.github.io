@@ -106,7 +106,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "custom" # 使用公共统计入口加载 Cloudflare Web Analytics。
   google:
     tracking_id          :
 

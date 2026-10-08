@@ -49,6 +49,15 @@ JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter --destinati
 
 GitHub Pages 使用 `master` 分支根目录，部署成功后查看 https://astrotorpedo.github.io/ 。
 
+## 访问统计
+
+- 使用 Cloudflare Web Analytics，代码位于 `_includes/analytics-providers/custom.html`；`_config.yml` 的 `analytics.provider` 设置为 `custom`。
+- 自定义个人布局与模板默认布局共用统计入口，每个正式页面只加载一次脚本。
+- 仅在 `JEKYLL_ENV=production` 时启用，本地开发预览不计入访问量。
+- 在 Cloudflare 后台的 Web Analytics 查看流量；访问数据可能需要几分钟才显示。
+
+## 内容约定
+
 - 英文主页；中文笔记后续增加。
 - 两个邮箱已按用户授权公开；无论文，暂不展示 Publications。
 - 学校入学年份、CNAO 获奖年份、协会任职起止时间未提供，因此不自行补充。

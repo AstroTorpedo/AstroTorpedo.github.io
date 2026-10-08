@@ -1,3 +1,6 @@
-<!-- start custom analytics snippet -->
-
-<!-- end custom analytics snippet -->
+{% if jekyll.environment == 'production' %}
+<!-- 仅统计正式网站，避免本地预览访问进入流量报表。 -->
+<!-- Cloudflare Web Analytics -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "07656571b23c4a9a88f8c473c89d301e"}'></script>
+<!-- End Cloudflare Web Analytics -->
+{% endif %}
