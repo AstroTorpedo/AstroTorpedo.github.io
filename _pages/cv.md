@@ -32,6 +32,8 @@ Current research interests include FAST neutral hydrogen observations and galaxy
 
 ## Honours
 
+**2026 Northeast China Collegiate Astronomy Knowledge Competition** — Led Jilin University to the team championship and received individual first prize.
+
 **2026 Outstanding Astrophotographer (2026年优秀天文摄影师)** — Selected by Beijing Planetarium.
 
 **Chinese National Astronomy Olympiad (CNAO)** — National bronze medal; member of the Jiangsu provincial team during high school.

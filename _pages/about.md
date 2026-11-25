@@ -24,6 +24,7 @@ redirect_from:
 <section class="content-section" id="beyond-research">
   <h2>Beyond research</h2>
   <p>I serve as <strong>President of the Jilin University Astronomy Association</strong>. My interest in astronomy extends to amateur observing and <strong>deep-sky astrophotography</strong>.</p>
+  <p>In November 2026, I led Jilin University to the <strong>team championship</strong> at the 12th Northeast China Collegiate Astronomy Knowledge Competition and received <strong>individual first prize</strong>.</p>
   <p>During high school, I was a member of the <strong>Jiangsu provincial team</strong> for the <strong>Chinese National Astronomy Olympiad (CNAO)</strong> and received a <strong>national bronze medal</strong>.</p>
   <p class="honour-note">In <strong>2026</strong>, I was selected as an <strong>Outstanding Astrophotographer</strong> by <strong>Beijing Planetarium</strong>.</p>
   <div class="page-shortcuts"><a href="{{ '/journey/' | relative_url }}"><span>MY JOURNEY</span><strong>Experiences &amp; community ↗</strong></a><a href="{{ '/photography/' | relative_url }}"><span>THROUGH MY LENS</span><strong>Browse the photography ↗</strong></a></div>
